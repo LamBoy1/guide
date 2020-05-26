@@ -57,7 +57,7 @@ By default, Discord.js selects the `'silence'` mode when creating a receiver str
 You can select the `'manual'` mode to keep the stream alive indefinitely and end it yourself when you choose to. Note that Discord.js won't interpolate any silence into the stream at the times when the user is silent - i.e. the gaps in the user's speech aren't present in the receiver stream.
 
 ### What if I want to listen to multiple users?
-
+bruh
 You can create a stream for each user. You cannot, however, create a single stream that will interpolate audio from multiple users in a channel - this is currently out of the scope of Discord.js.
 
 </branch>
